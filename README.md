@@ -9,7 +9,7 @@ This script extracts the intermediate layer-wise features from a network.
 Note: You can update the script to accommodate custom architectures.
 
 ##### Usage
-```python
+```
 python intermediate_features.py --help
 
 usage: intermediate_features.py [-h] -dp DATA_PATH -sd SAVE_DIR
