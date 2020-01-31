@@ -43,8 +43,8 @@ class GetFeatures(object):
             elif os.path.isfile(args.data_path):
                 images.append(args.data_path)
             else:
-                raise NotImplementedError
-        except NotImplementedError:
+                raise Exception
+        except Exception:
             print("Incorrect data path, it should be either an image directory or an image path")
 
         return images
